@@ -1,35 +1,50 @@
 # Ping-Pong-Pal
-Remote Controlled Table Tennis Server https://youtu.be/qHtv6UpS5UU
+Remote Controlled Table Tennis Server  
+[Demo Video](https://youtu.be/qHtv6UpS5UU)
 
-<img width="961" height="681" alt="image" src="https://github.com/user-attachments/assets/6d703083-7241-45d0-9dc1-b690c4cd1827" />
-<img width="251" height="367" alt="image" src="https://github.com/user-attachments/assets/974670a7-6986-4548-b0aa-cd8cb5167c03" />
-<img width="939" height="501" alt="image" src="https://github.com/user-attachments/assets/3320ff17-0fef-4ad8-bc14-450b07357b0b" />
+<img width="961" height="681" alt="PingPongPal Main Image" src="https://github.com/user-attachments/assets/6d703083-7241-45d0-9dc1-b690c4cd1827" />
+<img width="939" height="501" alt="PingPongPal Setup" src="https://github.com/user-attachments/assets/3320ff17-0fef-4ad8-bc14-450b07357b0b" />
 
-Main Hub
-The main hub power subsystem includes the battery which is connected to a power unit which then connects to all power
-consuming components. The user interface subsystem includes a power switch and an RGB LED strip which receives
-colour setting data from the microcontroller and power from the power unit. The launch subsystem includes the four
-launching motors and motor drivers which receive data input from the microcontroller and power from the power unit.
-The position subsystem takes setting data from the microcontroller to a motor driver, which receives power from the
-power unit. The wireless communication module will enable the Main Hub microcontroller to communicate to
-peripheral devices easily.
-<img width="906" height="684" alt="image" src="https://github.com/user-attachments/assets/db713cff-b79a-4f11-bd9c-f6fc5eba9d8c" />
+---
 
-Target
-The detection subsystem provides analogue input to the target microcontroller after being passed through a signal
-conditioning circuit. The microcontroller data is transmitted through wireless communication to the main hub
-microcontroller. The microcontroller receives power from the power unit located within the power supply. The green
-LED located on the target takes on/off commands from the microcontroller pin voltage which is driven when set high.
-The power switch inputs the circuit the on/off state of operation.
-<img width="945" height="491" alt="image" src="https://github.com/user-attachments/assets/edb08c6e-a123-4e2f-b6d3-be2b19887d79" />
+## Main Hub
+The **Main Hub** consists of several subsystems:  
 
-Remote
-The Remote microcontroller and LCD display receive power input from the power unit. The LCD display takes user
-inputs and outputs data to the microcontroller on the Remote PCB. The power switch inputs the circuit the on/off state
-of operation. The microcontroller on the Remote communicates to the Main Hub microcontroller through wireless
-communication protocols.
-<img width="925" height="499" alt="image" src="https://github.com/user-attachments/assets/1f7f3030-ba64-4c36-9f97-1c4cad721f7b" />
+- **Power Subsystem:** The battery connects to a power unit which supplies all power-consuming components.  
+- **User Interface Subsystem:** Includes a power switch and an RGB LED strip that receives colour data from the microcontroller.  
+- **Launch Subsystem:** Four launching motors and motor drivers receive control input from the microcontroller and power from the power unit.  
+- **Position Subsystem:** Receives setting data from the microcontroller to a motor driver, powered by the main unit.  
+- **Wireless Communication Module:** Enables communication between the Main Hub microcontroller and peripheral devices.
 
-User Application
-The user application is powered from the user’s mobile phone battery. The mobile application
-receives and sends data to the Main Hub microcontroller through the Bluetooth capabilities of the mobile device.
+<img width="906" height="684" alt="Main Hub Diagram" src="https://github.com/user-attachments/assets/db713cff-b79a-4f11-bd9c-f6fc5eba9d8c" />
+
+---
+
+## Target
+The **Target** includes:  
+
+- **Detection Subsystem:** Provides analogue input to the target microcontroller via a signal conditioning circuit.  
+- **Wireless Communication:** Sends hit data to the Main Hub microcontroller.  
+- **LED Indicator:** Green LED controlled by the microcontroller to indicate activity.  
+- **Power Switch:** Controls the on/off state of the target.
+
+<img width="945" height="491" alt="Target Diagram" src="https://github.com/user-attachments/assets/edb08c6e-a123-4e2f-b6d3-be2b19887d79" />
+
+---
+
+## Remote
+The **Remote** subsystem includes:  
+
+- **Microcontroller & LCD Display:** Receives power from the remote power unit. LCD takes user input and sends it to the microcontroller.  
+- **Power Switch:** Controls the on/off state.  
+- **Wireless Communication:** Microcontroller communicates with the Main Hub via wireless protocols.
+
+<img width="925" height="499" alt="Remote Diagram" src="https://github.com/user-attachments/assets/1f7f3030-ba64-4c36-9f97-1c4cad721f7b" />
+
+---
+
+## User Application
+The **User Application** runs on the mobile device:  
+
+- Powered by the phone battery.  
+- Sends and receives data to/from the Main Hub microcontroller using Bluetooth.  
