@@ -1,5 +1,4 @@
-# Ping-Pong-Pal
-Remote Controlled Table Tennis Server  
+# Ping-Pong-Pal - Remote Controlled Table Tennis Server  
 [Demo Video](https://youtu.be/qHtv6UpS5UU)
 
 <img width="961" height="681" alt="PingPongPal Main Image" src="https://github.com/user-attachments/assets/6d703083-7241-45d0-9dc1-b690c4cd1827" />
