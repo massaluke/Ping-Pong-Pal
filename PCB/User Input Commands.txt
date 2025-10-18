@@ -1,0 +1,205 @@
+﻿1 - Start set
+2 - Power Off 
+3 - Pause
+4 - Resume
+81 - Start session
+82 - End set
+
+
+Adaptive Mode
+5 - toggle
+
+
+Two-Player Mode
+7 - toggle
+
+
+________________
+
+
+Customization Settings
+Speed 
+10 - 1
+11 - 2
+12 - 3
+13 - 4
+14 - 5
+15 - 6
+16 - 7
+17 - 8
+18 - 9
+19 - 10
+
+
+Angle 
+20 - down1 
+21 - down2 
+22 - down 3 
+23 - down 4
+24 - straight
+25 - up1
+26 - up2
+27 - up3 
+28 - up4
+
+
+Vertical Spin
+30 - top 2
+31 - top 1
+32 - none
+33 - bottom 1
+34 - bottom 2
+
+
+
+
+Horizontal Spin
+40 - left 1
+41 - left 2
+42 - left 3
+43 - left 4
+44 - none
+45 - right 1
+46 - right 2
+47 - right 3
+48 - right 4
+
+
+Direction
+50 - left 1
+51 - left 2
+52 - left 3
+53 - left 4
+54 - Straight
+55 - right 1
+56 - right 2 
+57 - right 3
+58 - right 4 
+
+
+Frequency
+60 - 1
+61 - 2
+62 - 3
+63 - 4
+64 - 5
+65 - 6
+66 - 7
+67 - 8
+68 - 9
+69 - 10
+
+
+________________
+
+
+Drills
+70 - 1
+71 - 2
+72 - 3
+73 - 4
+74 - 5
+75 - 6
+76 - 7
+77 - 8
+78 - 9
+79 - 10
+
+
+Total Balls
+80 and up
+
+
+
+
+
+
+
+
+Hexxed: 
+1  - Start set           0x01
+2  - Power Off           0x02
+3  - Pause               0x03
+4  - Resume              0x04
+5  - Toggle (Adaptive Mode) 0x05
+7  - Toggle (Two-Player Mode) 0x07
+
+
+10 - Speed 1             0x0A
+11 - Speed 2             0x0B
+12 - Speed 3             0x0C
+13 - Speed 4             0x0D
+14 - Speed 5             0x0E
+15 - Speed 6             0x0F
+16 - Speed 7             0x10
+17 - Speed 8             0x11
+18 - Speed 9             0x12
+19 - Speed 10            0x13
+
+
+20 - Trajectroy down1         0x14
+21 - Trajectory down2         0x15
+22 - Trajectory down3         0x16
+23 - Trajectory down4         0x17
+24 - Trajectory straight      0x18
+25 - Trajectory up1           0x19
+26 - Trajectory up2           0x1A
+27 - Trajdctory up3           0x1B
+28 - Trajectory up4           0x1C
+
+
+30 - Vertical Spin top2  0x1E
+31 - Vertical Spin top1  0x1F
+32 - Vertical Spin none  0x20
+33 - Vertical Spin back1 0x21
+34 - Vertical Spin back2 0x22
+
+
+40 - Horizontal Spin left1  0x28
+41 - Horizontal Spin left2  0x29
+42 - Horizontal Spin left3  0x2A
+43 - Horizontal Spin left4  0x2B
+44 - Horizontal Spin none   0x2C
+45 - Horizontal Spin right1 0x2D
+46 - Horizontal Spin right2 0x2E
+47 - Horizontal Spin right3 0x2F
+48 - Horizontal Spin right4 0x30
+
+
+50 - Direction left1     0x32
+51 - Direction left2     0x33
+52 - Direction left3     0x34
+53 - Direction left4     0x35
+54 - Direction straight  0x36
+55 - Direction right1    0x37
+56 - Direction right2    0x38
+57 - Direction right3    0x39
+58 - Direction right4    0x3A
+
+
+60 - Frequency 1         0x3C
+61 - Frequency 2         0x3D
+62 - Frequency 3         0x3E
+63 - Frequency 4         0x3F
+64 - Frequency 5         0x40
+65 - Frequency 6         0x41
+66 - Frequency 7         0x42
+67 - Frequency 8         0x43
+68 - Frequency 9         0x44
+69 - Frequency 10        0x45
+
+
+70 - Drills 1            0x46
+71 - Drills 2            0x47
+72 - Drills 3            0x48
+73 - Drills 4            0x49
+74 - Drills 5            0x4A
+75 - Drills 6            0x4B
+76 - Drills 7            0x4C
+77 - Drills 8            0x4D
+78 - Drills 9            0x4E
+79 - Drills 10           0x4F
+
+
+81 - Start session       0x51
+82 - End set             0x52
